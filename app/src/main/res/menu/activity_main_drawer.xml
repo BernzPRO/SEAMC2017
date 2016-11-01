@@ -19,19 +19,18 @@
             android:id="@+id/nav_Social_Media"
             android:icon="@drawable/ic_supervisor_account_black_24dp"
             android:title="Social Media" />
+
+        <item
+            android:id="@+id/nav_Emergency"
+            android:icon="@drawable/ic_error_black_24dp"
+            android:title="Energency Info" />
+        <item
+            android:id="@+id/nav_Contact_Info"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Contact Info" />
+
     </group>
 
-    <item android:title="Contact">
-        <menu>
-            <item
-                android:id="@+id/nav_Emergency"
-                android:icon="@drawable/ic_error_black_24dp"
-                android:title="Energency Info" />
-            <item
-                android:id="@+id/nav_Contact_Info"
-                android:icon="@drawable/ic_account_circle_black_24dp"
-                android:title="Contact Info" />
-        </menu>
-    </item>
+
 
 </menu>

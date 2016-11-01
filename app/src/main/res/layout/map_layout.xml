@@ -4,13 +4,13 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <TextView
-        android:text="TextView"
+        android:text="Map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="129dp"
+        android:id="@+id/textView9"
+        tools:ignore="HardcodedText"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp"
-        android:id="@+id/textView2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        tools:text="Map"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
 </RelativeLayout>

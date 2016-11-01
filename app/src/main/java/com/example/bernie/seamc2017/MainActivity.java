@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Gotta Add Calc", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -68,8 +68,15 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        FragmentManager fragmentManager = getSupportFragmentManager();
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame
+                            , new settingfragement())
+                    .commit();
+
             return true;
         }
 

@@ -18,7 +18,7 @@ public class emergencyfragement extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        myview = inflater.inflate(R.layout.emergency_layout, container, false);
+        myview = inflater.inflate(R.layout.emergency_layout,container,false);
         return myview;
     }
 }
